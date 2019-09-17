@@ -132,6 +132,7 @@ body {
     padding-right: 13px;
 }
 
+
 #pro {
     padding-left: 11px;
     padding-right: 11px;
@@ -410,5 +411,17 @@ Other Pages
     text-align:left;
     font-size:20px;
     line-height:1.6;
+}
+
+
+/* ==========================================================================
+Media Query for carousel wrapper
+========================================================================== */
+
+@media screen and (max-width: 1000px){
+	.w3-section{
+		height: 300px !important;
+		overflow-y: hidden !important;
+	}
 }
 
